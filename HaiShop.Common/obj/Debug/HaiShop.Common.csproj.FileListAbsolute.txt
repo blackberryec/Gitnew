@@ -1,0 +1,4 @@
+F:\C# Data\HaiShop\HaiShop.Common\bin\Debug\HaiShop.Common.dll
+F:\C# Data\HaiShop\HaiShop.Common\bin\Debug\HaiShop.Common.pdb
+F:\C# Data\HaiShop\HaiShop.Common\obj\Debug\HaiShop.Common.dll
+F:\C# Data\HaiShop\HaiShop.Common\obj\Debug\HaiShop.Common.pdb
