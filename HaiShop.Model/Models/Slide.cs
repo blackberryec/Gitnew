@@ -29,5 +29,11 @@ namespace HaiShop.Model.Models
 
         public int? DisplayOrder { set; get; }
         public override bool Status { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public override DateTime? CreateDate { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public override string CreatedBy { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public override DateTime? UpdateDate { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public override string UpdateBy { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public override string MetaKeyword { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public override string MetaDescription { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
     }
 }

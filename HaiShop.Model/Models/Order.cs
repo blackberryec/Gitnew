@@ -42,5 +42,7 @@ namespace HaiShop.Model.Models
         public override DateTime? UpdateDate { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
         public override string UpdateBy { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
         public override bool Status { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public override string MetaKeyword { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public override string MetaDescription { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
     }
 }

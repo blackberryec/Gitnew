@@ -26,6 +26,12 @@ namespace HaiShop.Model.Models
         public string Alias { set; get; }
 
         public string Content { set; get; }
-
+        public override DateTime? CreateDate { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public override string CreatedBy { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public override DateTime? UpdateDate { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public override string UpdateBy { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public override string MetaKeyword { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public override string MetaDescription { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public override bool Status { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
     }
 }
