@@ -1,4 +1,4 @@
-﻿using HaiShop.Data.Infastructure;
+﻿using HaiShop.Data.Infrastructure;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -7,7 +7,7 @@ using System.Linq.Expressions;
 
 namespace HaiShop.Data.Infrastructure
 {
-    public abstract class RepositoryBase<T> where T : class
+    public abstract class RepositoryBase<T> : IRepository<T> where T : class
     {
         #region Properties
 

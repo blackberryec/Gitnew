@@ -8,8 +8,9 @@ namespace HaiShop.Model.Models
     public class Tag
     {
         [Key]
+        [Column(TypeName = "varchar")]
         [MaxLength(50)]
-        public int ID { set; get; }
+        public string ID { set; get; }
 
         [Required]
         [MaxLength(50)]

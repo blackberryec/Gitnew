@@ -2,18 +2,18 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System;
+using System.Collections.Generic;
 
 namespace HaiShop.Model.Models
 {
     [Table("Orders")]
-    public class Order : Auditable
+    public class Order
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int ID { set; get; }
 
-        [ForeignKey("ID")]
-        public virtual OrderDetail OrderDetail { set; get; }
+        public virtual IEnumerable<OrderDetail> OrderDetails { set; get; }
 
         [Required]
         [MaxLength(256)]
@@ -37,12 +37,8 @@ namespace HaiShop.Model.Models
 
         [Required]
         public string PaymentStatus { set; get; } //có vấn đề
-        public override DateTime? CreateDate { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public override string CreatedBy { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public override DateTime? UpdateDate { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public override string UpdateBy { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public override bool Status { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public override string MetaKeyword { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public override string MetaDescription { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public DateTime? CreatedDate { set; get; }
+        public string CreatedBy { set; get; }
+        public bool Status { set; get; }
     }
 }

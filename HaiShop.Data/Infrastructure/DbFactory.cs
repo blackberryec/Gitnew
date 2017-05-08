@@ -1,4 +1,4 @@
-﻿namespace HaiShop.Data.Infastructure
+﻿namespace HaiShop.Data.Infrastructure
 {
     public class DbFactory : Disposeable, IDbFactory
     {

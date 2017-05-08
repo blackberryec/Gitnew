@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 namespace HaiShop.Model.Models
 {
     [Table("SupportOnlines")]
-    public class SupportOnline : Auditable
+    public class SupportOnline
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
@@ -40,12 +40,6 @@ namespace HaiShop.Model.Models
         public string Facebook { set; get; }
 
         public int? DisplayOrder { set; get; }
-        public override DateTime? CreateDate { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public override string CreatedBy { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public override DateTime? UpdateDate { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public override string UpdateBy { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public override string MetaKeyword { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public override string MetaDescription { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public override bool Status { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public bool Status { set; get; }
     }
 }

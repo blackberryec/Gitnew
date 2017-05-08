@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HaiShop.Data.Infastructure
+namespace HaiShop.Data.Infrastructure
 {
     public class Disposeable : IDisposable //interface cho phep nhung class ke thuwa tu động hủy
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace HaiShop.Data.Infastructure
+namespace HaiShop.Data.Infrastructure
 {
     public interface IDbFactory : IDisposable //giao tieeps ddeer khoi tao cac doi tuong entity, design pattern
     {
