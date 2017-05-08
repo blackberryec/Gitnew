@@ -7,13 +7,14 @@ namespace HaiShop.Model.Models
     public class ProductTag
     {
         [Key]
+        [Column(Order = 1)]
         public int ProductID { set; get; }
 
         [ForeignKey("ProductID")]
         public virtual Product Product { set; get; }
 
         [Key]
-        [Column(TypeName ="varchar")]
+        [Column(TypeName ="varchar", Order = 2)]
         [MaxLength(50)]
         public string TagID { set; get; }
 

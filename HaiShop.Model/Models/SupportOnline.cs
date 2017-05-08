@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 namespace HaiShop.Model.Models
 {
     [Table("SupportOnlines")]
-    public class SupportOnline : Auditable
+    public class SupportOnline
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
@@ -40,5 +40,6 @@ namespace HaiShop.Model.Models
         public string Facebook { set; get; }
 
         public int? DisplayOrder { set; get; }
+        public bool Status { set; get; }
     }
 }
