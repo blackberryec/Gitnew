@@ -8,7 +8,6 @@ F:\C# Data\HaiShop\HaiShop.Model\bin\Debug\EntityFramework.SqlServer.xml
 F:\C# Data\HaiShop\HaiShop.Model\obj\Debug\HaiShop.Model.csprojResolveAssemblyReference.cache
 F:\C# Data\HaiShop\HaiShop.Model\obj\Debug\HaiShop.Model.dll
 F:\C# Data\HaiShop\HaiShop.Model\obj\Debug\HaiShop.Model.pdb
-F:\C# Data\HaiShop\Gitnew\HaiShop.Model\obj\Debug\HaiShop.Model.csprojResolveAssemblyReference.cache
 F:\C# Data\HaiShop\Gitnew\HaiShop.Model\obj\Debug\HaiShop.Model.dll
 F:\C# Data\HaiShop\Gitnew\HaiShop.Model\obj\Debug\HaiShop.Model.pdb
 F:\C# Data\HaiShop\Gitnew\HaiShop.Model\bin\Debug\HaiShop.Model.dll.config
