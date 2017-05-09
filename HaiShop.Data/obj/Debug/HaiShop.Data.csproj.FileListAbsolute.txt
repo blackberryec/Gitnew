@@ -10,9 +10,6 @@ F:\C# Data\HaiShop\HaiShop.Data\bin\Debug\EntityFramework.SqlServer.xml
 F:\C# Data\HaiShop\HaiShop.Data\obj\Debug\HaiShop.Data.csprojResolveAssemblyReference.cache
 F:\C# Data\HaiShop\HaiShop.Data\obj\Debug\HaiShop.Data.dll
 F:\C# Data\HaiShop\HaiShop.Data\obj\Debug\HaiShop.Data.pdb
-F:\C# Data\HaiShop\Gitnew\HaiShop.Data\obj\Debug\HaiShop.Data.csprojResolveAssemblyReference.cache
-F:\C# Data\HaiShop\Gitnew\HaiShop.Data\obj\Debug\HaiShop.Data.dll
-F:\C# Data\HaiShop\Gitnew\HaiShop.Data\obj\Debug\HaiShop.Data.pdb
 F:\C# Data\HaiShop\Gitnew\HaiShop.Data\bin\Debug\HaiShop.Data.dll.config
 F:\C# Data\HaiShop\Gitnew\HaiShop.Data\bin\Debug\HaiShop.Data.dll
 F:\C# Data\HaiShop\Gitnew\HaiShop.Data\bin\Debug\HaiShop.Data.pdb
@@ -21,9 +18,13 @@ F:\C# Data\HaiShop\Gitnew\HaiShop.Data\bin\Debug\EntityFramework.SqlServer.dll
 F:\C# Data\HaiShop\Gitnew\HaiShop.Data\bin\Debug\HaiShop.Common.dll
 F:\C# Data\HaiShop\Gitnew\HaiShop.Data\bin\Debug\HaiShop.Model.dll
 F:\C# Data\HaiShop\Gitnew\HaiShop.Data\bin\Debug\HaiShop.Common.pdb
+F:\C# Data\HaiShop\Gitnew\HaiShop.Data\bin\Debug\HaiShop.Common.dll.config
 F:\C# Data\HaiShop\Gitnew\HaiShop.Data\bin\Debug\HaiShop.Model.pdb
 F:\C# Data\HaiShop\Gitnew\HaiShop.Data\bin\Debug\HaiShop.Model.dll.config
 F:\C# Data\HaiShop\Gitnew\HaiShop.Data\bin\Debug\EntityFramework.xml
 F:\C# Data\HaiShop\Gitnew\HaiShop.Data\bin\Debug\EntityFramework.SqlServer.xml
+F:\C# Data\HaiShop\Gitnew\HaiShop.Data\obj\Debug\HaiShop.Data.csprojResolveAssemblyReference.cache
+F:\C# Data\HaiShop\Gitnew\HaiShop.Data\obj\Debug\HaiShop.Data.dll
+F:\C# Data\HaiShop\Gitnew\HaiShop.Data\obj\Debug\HaiShop.Data.pdb
 F:\C# Data\HaiShop\Gitnew\HaiShop.Data\obj\Debug\HaiShop.Data.Migrations.InitialDB.resources
 F:\C# Data\HaiShop\Gitnew\HaiShop.Data\obj\Debug\HaiShop.Data.csproj.GenerateResource.Cache

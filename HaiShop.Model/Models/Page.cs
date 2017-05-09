@@ -1,11 +1,6 @@
-﻿using HaiShop.Model.Abtract;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using HaiShop.Model.Abstract;
 
 namespace HaiShop.Model.Models
 {
@@ -20,18 +15,11 @@ namespace HaiShop.Model.Models
         [MaxLength(256)]
         public string Name { set; get; }
 
-        [Column(TypeName ="varchar")]
-        [Required]
+        [Column(TypeName = "varchar")]
         [MaxLength(256)]
+        [Required]
         public string Alias { set; get; }
 
         public string Content { set; get; }
-        public override DateTime? CreateDate { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public override string CreatedBy { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public override DateTime? UpdateDate { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public override string UpdateBy { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public override string MetaKeyword { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public override string MetaDescription { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public override bool Status { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
     }
 }

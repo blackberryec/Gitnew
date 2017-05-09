@@ -85,6 +85,7 @@ F:\C# Data\HaiShop\HaiShop.Web\bin\HaiShop.Model.dll.config
 F:\C# Data\HaiShop\HaiShop.Web\bin\HaiShop.Service.pdb
 F:\C# Data\HaiShop\HaiShop.Web\bin\EntityFramework.xml
 F:\C# Data\HaiShop\HaiShop.Web\bin\EntityFramework.SqlServer.xml
+F:\C# Data\HaiShop\Gitnew\HaiShop.Web\bin\ApplicationInsights.config
 F:\C# Data\HaiShop\Gitnew\HaiShop.Web\bin\roslyn\csc.exe
 F:\C# Data\HaiShop\Gitnew\HaiShop.Web\bin\roslyn\csc.exe.config
 F:\C# Data\HaiShop\Gitnew\HaiShop.Web\bin\roslyn\csc.rsp
@@ -111,7 +112,6 @@ F:\C# Data\HaiShop\Gitnew\HaiShop.Web\bin\roslyn\vbc.exe.config
 F:\C# Data\HaiShop\Gitnew\HaiShop.Web\bin\roslyn\vbc.rsp
 F:\C# Data\HaiShop\Gitnew\HaiShop.Web\bin\roslyn\VBCSCompiler.exe
 F:\C# Data\HaiShop\Gitnew\HaiShop.Web\bin\roslyn\VBCSCompiler.exe.config
-F:\C# Data\HaiShop\Gitnew\HaiShop.Web\bin\ApplicationInsights.config
 F:\C# Data\HaiShop\Gitnew\HaiShop.Web\bin\HaiShop.Web.dll.config
 F:\C# Data\HaiShop\Gitnew\HaiShop.Web\bin\HaiShop.Web.dll
 F:\C# Data\HaiShop\Gitnew\HaiShop.Web\bin\HaiShop.Web.pdb
@@ -144,6 +144,7 @@ F:\C# Data\HaiShop\Gitnew\HaiShop.Web\bin\System.Web.WebPages.dll
 F:\C# Data\HaiShop\Gitnew\HaiShop.Web\bin\System.Web.WebPages.Razor.dll
 F:\C# Data\HaiShop\Gitnew\HaiShop.Web\bin\WebGrease.dll
 F:\C# Data\HaiShop\Gitnew\HaiShop.Web\bin\HaiShop.Common.pdb
+F:\C# Data\HaiShop\Gitnew\HaiShop.Web\bin\HaiShop.Common.dll.config
 F:\C# Data\HaiShop\Gitnew\HaiShop.Web\bin\HaiShop.Data.pdb
 F:\C# Data\HaiShop\Gitnew\HaiShop.Web\bin\HaiShop.Data.dll.config
 F:\C# Data\HaiShop\Gitnew\HaiShop.Web\bin\HaiShop.Model.pdb

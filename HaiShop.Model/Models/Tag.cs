@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace HaiShop.Model.Models
@@ -8,18 +7,16 @@ namespace HaiShop.Model.Models
     public class Tag
     {
         [Key]
-        [Column(TypeName = "varchar")]
         [MaxLength(50)]
+        [Column(TypeName = "varchar")]
         public string ID { set; get; }
 
-        [Required]
         [MaxLength(50)]
+        [Required]
         public string Name { set; get; }
 
-        [Required]
         [MaxLength(50)]
+        [Required]
         public string Type { set; get; }
-
-        public virtual IEnumerable<Tag> Tags { set; get; }
     }
 }

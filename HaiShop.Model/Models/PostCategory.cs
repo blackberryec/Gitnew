@@ -1,8 +1,7 @@
-﻿using HaiShop.Model.Abtract;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System;
+using HaiShop.Model.Abstract;
 
 namespace HaiShop.Model.Models
 {
@@ -10,7 +9,7 @@ namespace HaiShop.Model.Models
     public class PostCategory : Auditable
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]//tương ứng set identity trong SQL
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int ID { set; get; }
 
         [Required]
@@ -18,8 +17,8 @@ namespace HaiShop.Model.Models
         public string Name { set; get; }
 
         [Required]
+        [Column(TypeName = "varchar")]
         [MaxLength(256)]
-        [Column(TypeName ="varchar")]
         public string Alias { set; get; }
 
         [MaxLength(500)]
@@ -34,12 +33,5 @@ namespace HaiShop.Model.Models
         public bool? HomeFlag { set; get; }
 
         public virtual IEnumerable<Post> Posts { set; get; }
-        public override DateTime? CreateDate { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public override string CreatedBy { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public override DateTime? UpdateDate { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public override string UpdateBy { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public override string MetaKeyword { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public override string MetaDescription { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public override bool Status { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
     }
 }

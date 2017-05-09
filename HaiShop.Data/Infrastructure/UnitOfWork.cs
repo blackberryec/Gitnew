@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HaiShop.Data.Infrastructure
 {
-    class UnitOfWork : IUnitOfWork
+    public class UnitOfWork : IUnitOfWork
     {
         private readonly IDbFactory dbFactory;
         private HaiShopDbContext dbContext;

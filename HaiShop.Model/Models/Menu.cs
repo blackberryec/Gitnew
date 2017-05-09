@@ -23,10 +23,10 @@ namespace HaiShop.Model.Models
         [Required]
         public int GroupID { set; get; }
 
-        [ForeignKey("GroupID")] // attribute
+        [ForeignKey("GroupID")]
         public virtual MenuGroup MenuGroup { set; get; }
 
-        [MaxLength(10)] 
+        [MaxLength(10)]
         public string Target { set; get; }
 
         public bool Status { set; get; }

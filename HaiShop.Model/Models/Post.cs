@@ -1,9 +1,8 @@
-﻿using HaiShop.Model.Abtract;
+﻿using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Xml.Linq;
-using System;
+using HaiShop.Model.Abstract;
 
 namespace HaiShop.Model.Models
 {
@@ -13,8 +12,6 @@ namespace HaiShop.Model.Models
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int ID { set; get; }
-
-        public virtual IEnumerable<PostTag> PostTags { set; get; }
 
         [Required]
         [MaxLength(256)]
@@ -28,14 +25,8 @@ namespace HaiShop.Model.Models
         [Required]
         public int CategoryID { set; get; }
 
-        [ForeignKey("CategoryID")]
-        public virtual PostCategory PostCategory { set; get; }
-
         [MaxLength(256)]
         public string Image { set; get; }
-
-        [Column(TypeName = "xml")]
-        public string MoreImages { set; get; }
 
         [MaxLength(500)]
         public string Description { set; get; }
@@ -45,12 +36,10 @@ namespace HaiShop.Model.Models
         public bool? HomeFlag { set; get; }
         public bool? HotFlag { set; get; }
         public int? ViewCount { set; get; }
-        public override DateTime? CreateDate { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public override string CreatedBy { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public override DateTime? UpdateDate { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public override string UpdateBy { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public override string MetaKeyword { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public override string MetaDescription { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public override bool Status { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+
+        [ForeignKey("CategoryID")]
+        public virtual PostCategory PostCategory { set; get; }
+
+        public virtual IEnumerable<PostTag> PostTags { set; get; }
     }
 }

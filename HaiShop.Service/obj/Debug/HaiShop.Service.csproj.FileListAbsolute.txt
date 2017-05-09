@@ -18,6 +18,7 @@ F:\C# Data\HaiShop\Gitnew\HaiShop.Service\bin\Debug\HaiShop.Data.dll
 F:\C# Data\HaiShop\Gitnew\HaiShop.Service\bin\Debug\HaiShop.Model.dll
 F:\C# Data\HaiShop\Gitnew\HaiShop.Service\bin\Debug\EntityFramework.dll
 F:\C# Data\HaiShop\Gitnew\HaiShop.Service\bin\Debug\HaiShop.Common.pdb
+F:\C# Data\HaiShop\Gitnew\HaiShop.Service\bin\Debug\HaiShop.Common.dll.config
 F:\C# Data\HaiShop\Gitnew\HaiShop.Service\bin\Debug\HaiShop.Data.pdb
 F:\C# Data\HaiShop\Gitnew\HaiShop.Service\bin\Debug\HaiShop.Data.dll.config
 F:\C# Data\HaiShop\Gitnew\HaiShop.Service\bin\Debug\HaiShop.Model.pdb

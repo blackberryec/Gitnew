@@ -10,13 +10,13 @@ namespace HaiShop.Model.Models
         [Column(Order = 1)]
         public int PostID { set; get; }
 
-        [ForeignKey("PostID")]
-        public virtual Post Post { set; get; }
-
         [Key]
-        [Column(TypeName = "varchar", Order = 2)]
+        [Column(TypeName = "varchar",Order =2)]
         [MaxLength(50)]
         public string TagID { set; get; }
+
+        [ForeignKey("PostID")]
+        public virtual Post Post { set; get; }
 
         [ForeignKey("TagID")]
         public virtual Tag Tag { set; get; }

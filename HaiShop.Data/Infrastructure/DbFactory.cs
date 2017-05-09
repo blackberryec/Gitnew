@@ -1,6 +1,9 @@
-﻿namespace HaiShop.Data.Infrastructure
+﻿using System;
+using TeduShop.Data.Infrastructure;
+
+namespace HaiShop.Data.Infrastructure
 {
-    public class DbFactory : Disposeable, IDbFactory
+    public class DbFactory : Disposable, IDbFactory
     {
         private HaiShopDbContext dbContext;
 

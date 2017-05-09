@@ -3,14 +3,14 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace HaiShop.Model.Models
 {
-    [Table("SystemConFigs")]
+    [Table("SystemConfigs")]
     public class SystemConfig
     {
         [Key]
         public int ID { set; get; }
 
         [Required]
-        [Column(TypeName ="varchar")]
+        [Column(TypeName = "varchar")]
         [MaxLength(50)]
         public string Code { set; get; }
 
