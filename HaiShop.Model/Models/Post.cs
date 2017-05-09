@@ -14,7 +14,7 @@ namespace HaiShop.Model.Models
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int ID { set; get; }
 
-        public virtual IEnumerable<Post> Posts { set; get; }
+        public virtual IEnumerable<PostTag> PostTags { set; get; }
 
         [Required]
         [MaxLength(256)]

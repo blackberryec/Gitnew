@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace HaiShop.Data.Repositories
 {
-    public interface ISildeRepository
+    public interface ISildeRepository : IRepository<Slide>
     {
 
     }

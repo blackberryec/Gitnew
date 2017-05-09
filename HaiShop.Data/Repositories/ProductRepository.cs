@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace HaiShop.Data.Repositories
 {
-    public interface IProductRepository
+    public interface IProductRepository : IRepository<Product>
     {
         //phương thức thêm mới
     }
