@@ -17,3 +17,4 @@ F:\C# Data\HaiShop\Gitnew\HaiShop.Model\bin\Debug\EntityFramework.dll
 F:\C# Data\HaiShop\Gitnew\HaiShop.Model\bin\Debug\EntityFramework.SqlServer.dll
 F:\C# Data\HaiShop\Gitnew\HaiShop.Model\bin\Debug\EntityFramework.xml
 F:\C# Data\HaiShop\Gitnew\HaiShop.Model\bin\Debug\EntityFramework.SqlServer.xml
+F:\C# Data\HaiShop\Gitnew\HaiShop.Model\obj\Debug\HaiShop.Model.csprojResolveAssemblyReference.cache
