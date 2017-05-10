@@ -173,3 +173,14 @@ F:\C# Data\HaiShop\Gitnew\HaiShop.Web\bin\Microsoft.AI.Web.xml
 F:\C# Data\HaiShop\Gitnew\HaiShop.Web\obj\Debug\HaiShop.Web.csprojResolveAssemblyReference.cache
 F:\C# Data\HaiShop\Gitnew\HaiShop.Web\obj\Debug\HaiShop.Web.dll
 F:\C# Data\HaiShop\Gitnew\HaiShop.Web\obj\Debug\HaiShop.Web.pdb
+F:\C# Data\HaiShop\Gitnew\HaiShop.Web\bin\Autofac.dll
+F:\C# Data\HaiShop\Gitnew\HaiShop.Web\bin\Autofac.Integration.Mvc.dll
+F:\C# Data\HaiShop\Gitnew\HaiShop.Web\bin\Autofac.Integration.WebApi.dll
+F:\C# Data\HaiShop\Gitnew\HaiShop.Web\bin\Microsoft.Owin.dll
+F:\C# Data\HaiShop\Gitnew\HaiShop.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\C# Data\HaiShop\Gitnew\HaiShop.Web\bin\Owin.dll
+F:\C# Data\HaiShop\Gitnew\HaiShop.Web\bin\Autofac.xml
+F:\C# Data\HaiShop\Gitnew\HaiShop.Web\bin\Autofac.Integration.Mvc.xml
+F:\C# Data\HaiShop\Gitnew\HaiShop.Web\bin\Autofac.Integration.WebApi.xml
+F:\C# Data\HaiShop\Gitnew\HaiShop.Web\bin\Microsoft.Owin.xml
+F:\C# Data\HaiShop\Gitnew\HaiShop.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
