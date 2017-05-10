@@ -184,3 +184,5 @@ F:\C# Data\HaiShop\Gitnew\HaiShop.Web\bin\Autofac.Integration.Mvc.xml
 F:\C# Data\HaiShop\Gitnew\HaiShop.Web\bin\Autofac.Integration.WebApi.xml
 F:\C# Data\HaiShop\Gitnew\HaiShop.Web\bin\Microsoft.Owin.xml
 F:\C# Data\HaiShop\Gitnew\HaiShop.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\C# Data\HaiShop\Gitnew\HaiShop.Web\bin\AutoMapper.dll
+F:\C# Data\HaiShop\Gitnew\HaiShop.Web\bin\AutoMapper.xml
