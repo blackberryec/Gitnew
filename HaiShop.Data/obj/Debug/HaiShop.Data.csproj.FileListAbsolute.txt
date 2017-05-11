@@ -31,3 +31,9 @@ F:\C# Data\HaiShop\Gitnew\HaiShop.Data\obj\Debug\HaiShop.Data.csproj.GenerateRes
 F:\C# Data\HaiShop\Gitnew\HaiShop.Data\obj\Debug\HaiShop.Data.Migrations.AddErrorTable.resources
 F:\C# Data\HaiShop\Gitnew\HaiShop.Data\bin\Debug\AutoMapper.dll
 F:\C# Data\HaiShop\Gitnew\HaiShop.Data\bin\Debug\AutoMapper.xml
+F:\C# Data\HaiShop\Gitnew\HaiShop.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+F:\C# Data\HaiShop\Gitnew\HaiShop.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\C# Data\HaiShop\Gitnew\HaiShop.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+F:\C# Data\HaiShop\Gitnew\HaiShop.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\C# Data\HaiShop\Gitnew\HaiShop.Data\obj\Debug\HaiShop.Data.Migrations.IntergrateAspnetIdentity.resources
+F:\C# Data\HaiShop\Gitnew\HaiShop.Data\obj\Debug\HaiShop.Data.Migrations.ChangeKey.resources

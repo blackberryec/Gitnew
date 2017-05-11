@@ -186,3 +186,15 @@ F:\C# Data\HaiShop\Gitnew\HaiShop.Web\bin\Microsoft.Owin.xml
 F:\C# Data\HaiShop\Gitnew\HaiShop.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
 F:\C# Data\HaiShop\Gitnew\HaiShop.Web\bin\AutoMapper.dll
 F:\C# Data\HaiShop\Gitnew\HaiShop.Web\bin\AutoMapper.xml
+F:\C# Data\HaiShop\Gitnew\HaiShop.Web\bin\Microsoft.AspNet.Identity.Core.dll
+F:\C# Data\HaiShop\Gitnew\HaiShop.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\C# Data\HaiShop\Gitnew\HaiShop.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\C# Data\HaiShop\Gitnew\HaiShop.Web\bin\Microsoft.Owin.Security.Cookies.dll
+F:\C# Data\HaiShop\Gitnew\HaiShop.Web\bin\Microsoft.Owin.Security.dll
+F:\C# Data\HaiShop\Gitnew\HaiShop.Web\bin\Microsoft.Owin.Security.OAuth.dll
+F:\C# Data\HaiShop\Gitnew\HaiShop.Web\bin\Microsoft.AspNet.Identity.Core.xml
+F:\C# Data\HaiShop\Gitnew\HaiShop.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\C# Data\HaiShop\Gitnew\HaiShop.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\C# Data\HaiShop\Gitnew\HaiShop.Web\bin\Microsoft.Owin.Security.xml
+F:\C# Data\HaiShop\Gitnew\HaiShop.Web\bin\Microsoft.Owin.Security.Cookies.xml
+F:\C# Data\HaiShop\Gitnew\HaiShop.Web\bin\Microsoft.Owin.Security.OAuth.xml

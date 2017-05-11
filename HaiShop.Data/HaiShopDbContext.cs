@@ -1,4 +1,5 @@
 ﻿using HaiShop.Model.Models;
+using Microsoft.AspNet.Identity.EntityFramework;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace HaiShop.Data
 {
-    public class HaiShopDbContext : DbContext
+    public class HaiShopDbContext : IdentityDbContext<ApplicationUser>
     {
         public HaiShopDbContext() : base("HaiShopConnection")
         {
@@ -34,9 +35,15 @@ namespace HaiShop.Data
         public DbSet<VisitorStatistic> VisitorStatistics { set; get; }
         public DbSet<Error> Errors { set; get; }
 
+        public static HaiShopDbContext Create()
+        {
+            return new HaiShopDbContext();
+        }
+
         protected override void OnModelCreating(DbModelBuilder builder)
         {
-            
+            builder.Entity<IdentityUserRole>().HasKey(i => new { i.UserId, i.RoleId });
+            builder.Entity<IdentityUserLogin>().HasKey(i => i.UserId);
         }
     }
 }

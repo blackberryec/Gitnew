@@ -27,3 +27,7 @@ F:\C# Data\HaiShop\Gitnew\HaiShop.Service\bin\Debug\EntityFramework.xml
 F:\C# Data\HaiShop\Gitnew\HaiShop.Service\obj\Debug\HaiShop.Service.csprojResolveAssemblyReference.cache
 F:\C# Data\HaiShop\Gitnew\HaiShop.Service\obj\Debug\HaiShop.Service.dll
 F:\C# Data\HaiShop\Gitnew\HaiShop.Service\obj\Debug\HaiShop.Service.pdb
+F:\C# Data\HaiShop\Gitnew\HaiShop.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\C# Data\HaiShop\Gitnew\HaiShop.Service\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+F:\C# Data\HaiShop\Gitnew\HaiShop.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\C# Data\HaiShop\Gitnew\HaiShop.Service\bin\Debug\Microsoft.AspNet.Identity.Core.xml
