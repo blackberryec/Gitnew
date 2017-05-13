@@ -1,6 +1,6 @@
 ﻿
 (function () {
-    angular.module('haishop', ['haishop.products','haishop.common']).config(config);
+    angular.module('haishop', ['haishop.products', 'haishop.product_categories','haishop.common']).config(config);
 
     config.$inject = ['$stateProvider', '$urlRouterProvider'];
 
