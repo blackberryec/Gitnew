@@ -23,6 +23,16 @@
         </div>
         <div class="box-body">
             <div class="row">
+                <div class="col-md-6">
+                    <div class="input-group">
+                        <input type="text" class="form-control" ng-model="keyword" placeholder="Keyword" />
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" type="submit" ng-click="search()">Tim kiem</button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
                 <div class="col-md-12">
                     <table class="table table-bordered">
                         <tr>
@@ -49,6 +59,7 @@
                                 <button class="btn  btn-sm btn-danger"><i class="fa fa-trash"></i></button>
                             </td>
                         </tr>
+                        
                     </table>
                 </div>
             </div>
