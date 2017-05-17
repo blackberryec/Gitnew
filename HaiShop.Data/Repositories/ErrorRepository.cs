@@ -5,6 +5,7 @@ namespace HaiShop.Data.Repositories
 {
     public interface IErrorRepository : IRepository<Error>
     {
+        
     }
 
     public class ErrorRepository : RepositoryBase<Error>, IErrorRepository
