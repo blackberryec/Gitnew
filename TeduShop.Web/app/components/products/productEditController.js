@@ -21,7 +21,6 @@
             apiService.get('api/product/getbyid/' + $stateParams.id, null, function (result) {
                 $scope.product = result.data;
                 $scope.moreImages = JSON.parse($scope.product.MoreImages);
-
             }, function (error) {
                 notificationService.displayError(error.data);
             });
